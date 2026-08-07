@@ -14,11 +14,11 @@ function StatsCards() {
   return (
     <motion.div variants={itemVariants} className="stats-container">
       <div className="card stat-card stat-dark">
-        <span className="stat-number">5+</span>
+        <span className="stat-number">6+</span>
         <span className="stat-label">Years Experience</span>
       </div>
       <div className="card stat-card stat-primary">
-        <span className="stat-number">50+</span>
+        <span className="stat-number">250+</span>
         <span className="stat-label">Projects Done</span>
       </div>
     </motion.div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowUpRight, Store, Sparkles, Heart, TrendingUp } from 'lucide-react';
+import { ArrowUpRight, Store, Sparkles, Heart, TrendingUp, Car, ShoppingBag, BookOpen} from 'lucide-react';
 
 const itemVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -17,7 +17,7 @@ const PROJECTS = [
     description: "Analytics and management platform for online stores.",
     tags: ["React", "Tailwind"],
     color: "blue",
-    link: "https://github.com/louaikachkouch",
+    link: "https://hydrolify.vercel.app/stores",
     icon: Store
   },
   {
@@ -37,12 +37,28 @@ const PROJECTS = [
     icon: Heart
   },
   {
-    title: "Financial Portfolio",
+    title: "VIN Car History Checker",
+    description: "checks the history of a car using its VIN number.",
+    tags: ["React"],
+    color: "orange",
+    link: "https://truecar.vercel.app",
+    icon: Car
+  },
+  {
+    title: "Minimalist E-Commerce Store",
+    description: "A clean and simple online store interface.",
+    tags: ["React"],
+    color: "blue",
+    link: "https://lampify.vercel.app",
+    icon: ShoppingBag
+  },
+  {
+    title: "Coury Startup",
     description: "Real-time stock and crypto tracking dashboard.",
     tags: ["React"],
     color: "orange",
-    link: "https://hydrolic-expense-tracker.vercel.app",
-    icon: TrendingUp
+    link: "https://truecar.vercel.app",
+    icon: BookOpen
   }
 ];
 

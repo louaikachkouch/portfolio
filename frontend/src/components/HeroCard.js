@@ -17,7 +17,6 @@ function HeroCard() {
       <div className="hero-icon">
         <Code2 className="icon-xl" />
       </div>
-      <div className="badge">Available for hire</div>
       <h2 className="hero-title">
         Building digital products,<br />brands, and businneses.
       </h2>

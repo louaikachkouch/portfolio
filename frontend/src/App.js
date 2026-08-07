@@ -32,7 +32,7 @@ function App() {
           </Routes>
 
           <footer className="footer">
-            <p>© 2026 Louai Kachkouch. Built By Hydrolic Station.</p>
+            <p>© 2026 Louai Kachkouch.</p>
           </footer>
         </div>
       </Router>
